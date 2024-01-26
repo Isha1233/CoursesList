@@ -1,0 +1,51 @@
+/* lassName="py-8 flex flex-wrap ml-28 justify-centre gap-4 mb-4" */
+.cards{
+    padding:70px 0px 70px 0px;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0px 40px 0px 40px;
+    justify-content: center;
+    gap: 40px;
+}
+@media(max-width:1024){
+    .cards{
+        flex-wrap:wrap;
+        padding-right:-100px;
+    }
+
+    }
+    @media(max-width:913px){
+        .cards{
+            flex-wrap:wrap;
+            padding-left:40px;
+        }
+    
+        }
+        @media(max-width:770px){
+            .cards{
+                flex-wrap:wrap;
+                padding-left:auto;
+                padding-left:1px;
+            }
+        
+            }
+@media(max-width:600px){
+    .cards{
+        flex-wrap:wrap;
+    }
+
+    }
+    @media(max-width:433px){
+        .cards{
+            padding-right:0px;
+        }
+        
+        }
+
+          @media(max-width:375px){
+            .cards{
+                flex-wrap: wrap;
+                padding-right:0px;
+               
+            }
+        }
